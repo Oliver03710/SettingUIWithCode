@@ -16,7 +16,6 @@
 		AD7D921F28ACB59F00E2ABE6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AD7D921E28ACB59F00E2ABE6 /* SnapKit */; };
 		AD7D922228ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D922128ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift */; };
 		AD7D922428ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D922328ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift */; };
-		AD7D922828AD146000E2ABE6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D922728AD146000E2ABE6 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		AD7D921528ACB05200E2ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7D922128ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseBaeminViewController.swift; sourceTree = "<group>"; };
 		AD7D922328ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseMelonViewController.swift; sourceTree = "<group>"; };
-		AD7D922728AD146000E2ABE6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 			children = (
 				AD7D920728ACB05000E2ABE6 /* AppDelegate.swift */,
 				AD7D920928ACB05000E2ABE6 /* SceneDelegate.swift */,
-				AD7D922728AD146000E2ABE6 /* UIView+Extension.swift */,
 				AD7D920D28ACB05000E2ABE6 /* Main.storyboard */,
 				AD7D920B28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift */,
 				AD7D922128ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift */,
@@ -155,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7D922828AD146000E2ABE6 /* UIView+Extension.swift in Sources */,
 				AD7D920C28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift in Sources */,
 				AD7D920828ACB05000E2ABE6 /* AppDelegate.swift in Sources */,
 				AD7D922228ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift in Sources */,
