@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD25FA0828B111B00046387C /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25FA0728B111B00046387C /* CircleImageView.swift */; };
+		AD42848428B12D0E00EC36E4 /* UpperCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848328B12D0E00EC36E4 /* UpperCustomButtons.swift */; };
+		AD42848928B131F300EC36E4 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848828B131F300EC36E4 /* UIButton+Extension.swift */; };
+		AD42848B28B1378E00EC36E4 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848A28B1378E00EC36E4 /* CustomStackView.swift */; };
 		AD7D920828ACB05000E2ABE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D920728ACB05000E2ABE6 /* AppDelegate.swift */; };
 		AD7D920A28ACB05000E2ABE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D920928ACB05000E2ABE6 /* SceneDelegate.swift */; };
 		AD7D920C28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D920B28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift */; };
@@ -16,9 +20,18 @@
 		AD7D921F28ACB59F00E2ABE6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AD7D921E28ACB59F00E2ABE6 /* SnapKit */; };
 		AD7D922228ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D922128ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift */; };
 		AD7D922428ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D922328ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift */; };
+		AD9AC71828B0CF9800BF2329 /* CodeBaseNetflixViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AC71728B0CF9800BF2329 /* CodeBaseNetflixViewcontroller.swift */; };
+		AD9AC71F28B0D01800BF2329 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AC71E28B0D01800BF2329 /* BaseViewController.swift */; };
+		AD9AC72128B0D0BA00BF2329 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AC72028B0D0BA00BF2329 /* BaseView.swift */; };
+		AD9AC72428B0D19D00BF2329 /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AC72328B0D19D00BF2329 /* NetflixView.swift */; };
+		AD9AC72628B0D33000BF2329 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AC72528B0D33000BF2329 /* MovieData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD25FA0728B111B00046387C /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		AD42848328B12D0E00EC36E4 /* UpperCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperCustomButtons.swift; sourceTree = "<group>"; };
+		AD42848828B131F300EC36E4 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		AD42848A28B1378E00EC36E4 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
 		AD7D920428ACB05000E2ABE6 /* SettingUIWithCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingUIWithCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7D920728ACB05000E2ABE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7D920928ACB05000E2ABE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +42,11 @@
 		AD7D921528ACB05200E2ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7D922128ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseBaeminViewController.swift; sourceTree = "<group>"; };
 		AD7D922328ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseMelonViewController.swift; sourceTree = "<group>"; };
+		AD9AC71728B0CF9800BF2329 /* CodeBaseNetflixViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseNetflixViewcontroller.swift; sourceTree = "<group>"; };
+		AD9AC71E28B0D01800BF2329 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AD9AC72028B0D0BA00BF2329 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AD9AC72328B0D19D00BF2329 /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
+		AD9AC72528B0D33000BF2329 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD42848728B131E400EC36E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD42848828B131F300EC36E4 /* UIButton+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AD7D91FB28ACB04F00E2ABE6 = {
 			isa = PBXGroup;
 			children = (
@@ -64,15 +90,40 @@
 			children = (
 				AD7D920728ACB05000E2ABE6 /* AppDelegate.swift */,
 				AD7D920928ACB05000E2ABE6 /* SceneDelegate.swift */,
-				AD7D920D28ACB05000E2ABE6 /* Main.storyboard */,
+				AD42848728B131E400EC36E4 /* Extensions */,
+				AD9AC71A28B0CFD300BF2329 /* Utility */,
 				AD7D920B28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift */,
 				AD7D922128ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift */,
 				AD7D922328ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift */,
+				AD9AC71728B0CF9800BF2329 /* CodeBaseNetflixViewcontroller.swift */,
+				AD7D920D28ACB05000E2ABE6 /* Main.storyboard */,
 				AD7D921028ACB05200E2ABE6 /* Assets.xcassets */,
 				AD7D921228ACB05200E2ABE6 /* LaunchScreen.storyboard */,
 				AD7D921528ACB05200E2ABE6 /* Info.plist */,
 			);
 			path = SettingUIWithCode;
+			sourceTree = "<group>";
+		};
+		AD9AC71A28B0CFD300BF2329 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AD9AC71D28B0CFFC00BF2329 /* Customs */,
+				AD9AC71E28B0D01800BF2329 /* BaseViewController.swift */,
+				AD9AC72028B0D0BA00BF2329 /* BaseView.swift */,
+				AD9AC72528B0D33000BF2329 /* MovieData.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AD9AC71D28B0CFFC00BF2329 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				AD9AC72328B0D19D00BF2329 /* NetflixView.swift */,
+				AD25FA0728B111B00046387C /* CircleImageView.swift */,
+				AD42848328B12D0E00EC36E4 /* UpperCustomButtons.swift */,
+				AD42848A28B1378E00EC36E4 /* CustomStackView.swift */,
+			);
+			path = Customs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,11 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD25FA0828B111B00046387C /* CircleImageView.swift in Sources */,
+				AD9AC72428B0D19D00BF2329 /* NetflixView.swift in Sources */,
+				AD42848928B131F300EC36E4 /* UIButton+Extension.swift in Sources */,
 				AD7D920C28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift in Sources */,
+				AD42848B28B1378E00EC36E4 /* CustomStackView.swift in Sources */,
+				AD9AC71828B0CF9800BF2329 /* CodeBaseNetflixViewcontroller.swift in Sources */,
 				AD7D920828ACB05000E2ABE6 /* AppDelegate.swift in Sources */,
 				AD7D922228ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift in Sources */,
 				AD7D922428ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift in Sources */,
+				AD9AC71F28B0D01800BF2329 /* BaseViewController.swift in Sources */,
 				AD7D920A28ACB05000E2ABE6 /* SceneDelegate.swift in Sources */,
+				AD42848428B12D0E00EC36E4 /* UpperCustomButtons.swift in Sources */,
+				AD9AC72628B0D33000BF2329 /* MovieData.swift in Sources */,
+				AD9AC72128B0D0BA00BF2329 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
