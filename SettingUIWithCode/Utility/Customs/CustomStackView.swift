@@ -25,15 +25,13 @@ class CustomStackView: UIStackView {
         self.tintColor = .white
     }
     
-    convenience init(arrangedSubviews views: [UIView], axis: NSLayoutConstraint.Axis, size: CGFloat, distribution: UIStackView.Distribution) {
+    convenience init(arrangedSubviews views: [UIView], axis: NSLayoutConstraint.Axis, spacing: CGFloat, distribution: UIStackView.Distribution) {
         self.init()
         views.forEach { self.addArrangedSubview($0) }
         self.axis = axis
-        self.spacing = UIScreen.main.bounds.width / size
+        self.spacing = UIScreen.main.bounds.width / spacing
         self.distribution = distribution
 
     }
-    
 
-    
 }

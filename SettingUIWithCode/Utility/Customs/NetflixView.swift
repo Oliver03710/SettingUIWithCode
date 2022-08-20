@@ -49,7 +49,7 @@ class NetflixView: BaseView {
     }()
     
     lazy var upperButtonStackView: CustomStackView = {
-        let sv = CustomStackView(arrangedSubviews: [tvProButton, movieButton, upperLikeContentsButton], axis: .horizontal, size: 40, distribution: .fillProportionally)
+        let sv = CustomStackView(arrangedSubviews: [tvProButton, movieButton, upperLikeContentsButton], axis: .horizontal, spacing: 40, distribution: .fillProportionally)
         return sv
     }()
     
@@ -77,15 +77,12 @@ class NetflixView: BaseView {
     }()
     
     lazy var lowerButtonStackView: CustomStackView = {
-        let sv = CustomStackView(arrangedSubviews: [lowerLikeContentsButton, playButton, infoButton], axis: .horizontal, size: 20, distribution: .fillEqually)
+        let sv = CustomStackView(arrangedSubviews: [lowerLikeContentsButton, playButton, infoButton], axis: .horizontal, spacing: 20, distribution: .fillEqually)
         return sv
     }()
     
-    let previewLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .white
-        label.font = .boldSystemFont(ofSize: 16)
-        label.text = "미리보기"
+    let previewLabel: CustomLabel = {
+        let label = CustomLabel("미리보기", textColor: .white, textSize: 16, textAlignment: .left)
         return label
     }()
     
@@ -105,7 +102,7 @@ class NetflixView: BaseView {
     }()
     
     lazy var circleStackView: CustomStackView = {
-        let sv = CustomStackView(arrangedSubviews: [leftCircleView, centerCircleView, rightPreviewImageView], axis: .horizontal, size: 30, distribution: .fillEqually)
+        let sv = CustomStackView(arrangedSubviews: [leftCircleView, centerCircleView, rightPreviewImageView], axis: .horizontal, spacing: 30, distribution: .fillEqually)
         return sv
     }()
     

@@ -1,22 +1,22 @@
 //
-//  CodeBaseNetflixViewcontroller.swift
+//  CodeBaseNetflixLoginViewController.swift
 //  SettingUIWithCode
 //
-//  Created by Junhee Yoon on 2022/08/20.
+//  Created by Junhee Yoon on 2022/08/21.
 //
 
 import UIKit
 
-class CodeBaseNetflixViewcontroller: BaseViewController {
+class CodeBaseNetflixLoginViewController: BaseViewController {
     
     // MARK: - Properties
     
-    var netflixView = NetflixView()
+    var netflixLoginView = NetflixLoginView()
     
     // MARK: - Init
     
     override func loadView() {
-        self.view = netflixView
+        self.view = netflixLoginView
     }
     
     override func viewDidLoad() {

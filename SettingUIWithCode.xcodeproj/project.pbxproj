@@ -11,6 +11,11 @@
 		AD42848428B12D0E00EC36E4 /* UpperCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848328B12D0E00EC36E4 /* UpperCustomButtons.swift */; };
 		AD42848928B131F300EC36E4 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848828B131F300EC36E4 /* UIButton+Extension.swift */; };
 		AD42848B28B1378E00EC36E4 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848A28B1378E00EC36E4 /* CustomStackView.swift */; };
+		AD42848D28B13CB500EC36E4 /* CodeBaseNetflixLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848C28B13CB500EC36E4 /* CodeBaseNetflixLoginViewController.swift */; };
+		AD42848F28B13D1600EC36E4 /* NetflixLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42848E28B13D1600EC36E4 /* NetflixLoginView.swift */; };
+		AD42849128B13DEC00EC36E4 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42849028B13DEC00EC36E4 /* CustomLabel.swift */; };
+		AD42849328B149AC00EC36E4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42849228B149AC00EC36E4 /* CustomTextField.swift */; };
+		AD42849528B14C3800EC36E4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42849428B14C3800EC36E4 /* CustomButton.swift */; };
 		AD7D920828ACB05000E2ABE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D920728ACB05000E2ABE6 /* AppDelegate.swift */; };
 		AD7D920A28ACB05000E2ABE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D920928ACB05000E2ABE6 /* SceneDelegate.swift */; };
 		AD7D920C28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D920B28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift */; };
@@ -32,6 +37,11 @@
 		AD42848328B12D0E00EC36E4 /* UpperCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperCustomButtons.swift; sourceTree = "<group>"; };
 		AD42848828B131F300EC36E4 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		AD42848A28B1378E00EC36E4 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		AD42848C28B13CB500EC36E4 /* CodeBaseNetflixLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseNetflixLoginViewController.swift; sourceTree = "<group>"; };
+		AD42848E28B13D1600EC36E4 /* NetflixLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixLoginView.swift; sourceTree = "<group>"; };
+		AD42849028B13DEC00EC36E4 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		AD42849228B149AC00EC36E4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AD42849428B14C3800EC36E4 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AD7D920428ACB05000E2ABE6 /* SettingUIWithCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingUIWithCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7D920728ACB05000E2ABE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7D920928ACB05000E2ABE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +106,7 @@
 				AD7D922128ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift */,
 				AD7D922328ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift */,
 				AD9AC71728B0CF9800BF2329 /* CodeBaseNetflixViewcontroller.swift */,
+				AD42848C28B13CB500EC36E4 /* CodeBaseNetflixLoginViewController.swift */,
 				AD7D920D28ACB05000E2ABE6 /* Main.storyboard */,
 				AD7D921028ACB05200E2ABE6 /* Assets.xcassets */,
 				AD7D921228ACB05200E2ABE6 /* LaunchScreen.storyboard */,
@@ -119,9 +130,13 @@
 			isa = PBXGroup;
 			children = (
 				AD9AC72328B0D19D00BF2329 /* NetflixView.swift */,
+				AD42848E28B13D1600EC36E4 /* NetflixLoginView.swift */,
 				AD25FA0728B111B00046387C /* CircleImageView.swift */,
 				AD42848328B12D0E00EC36E4 /* UpperCustomButtons.swift */,
 				AD42848A28B1378E00EC36E4 /* CustomStackView.swift */,
+				AD42849028B13DEC00EC36E4 /* CustomLabel.swift */,
+				AD42849228B149AC00EC36E4 /* CustomTextField.swift */,
+				AD42849428B14C3800EC36E4 /* CustomButton.swift */,
 			);
 			path = Customs;
 			sourceTree = "<group>";
@@ -204,11 +219,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD25FA0828B111B00046387C /* CircleImageView.swift in Sources */,
+				AD42849528B14C3800EC36E4 /* CustomButton.swift in Sources */,
 				AD9AC72428B0D19D00BF2329 /* NetflixView.swift in Sources */,
 				AD42848928B131F300EC36E4 /* UIButton+Extension.swift in Sources */,
+				AD42848D28B13CB500EC36E4 /* CodeBaseNetflixLoginViewController.swift in Sources */,
 				AD7D920C28ACB05000E2ABE6 /* CodeBaseKakaoViewController.swift in Sources */,
+				AD42849128B13DEC00EC36E4 /* CustomLabel.swift in Sources */,
 				AD42848B28B1378E00EC36E4 /* CustomStackView.swift in Sources */,
 				AD9AC71828B0CF9800BF2329 /* CodeBaseNetflixViewcontroller.swift in Sources */,
+				AD42849328B149AC00EC36E4 /* CustomTextField.swift in Sources */,
 				AD7D920828ACB05000E2ABE6 /* AppDelegate.swift in Sources */,
 				AD7D922228ACFB5F00E2ABE6 /* CodeBaseBaeminViewController.swift in Sources */,
 				AD7D922428ACFBF700E2ABE6 /* CodeBaseMelonViewController.swift in Sources */,
@@ -217,6 +236,7 @@
 				AD42848428B12D0E00EC36E4 /* UpperCustomButtons.swift in Sources */,
 				AD9AC72628B0D33000BF2329 /* MovieData.swift in Sources */,
 				AD9AC72128B0D0BA00BF2329 /* BaseView.swift in Sources */,
+				AD42848F28B13D1600EC36E4 /* NetflixLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
